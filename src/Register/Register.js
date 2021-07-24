@@ -11,14 +11,16 @@ const useStyles = makeStyles(theme => ({
         alignItems: 'center',
         padding: '0.5rem',
         color: 'blue',
-        fontWeight: 'bold'
+        fontWeight: 'bold',
+        border:'1px solid teal',
+        borderRadius: '4px'
     },
     paperLayout: {
         padding: '2rem',
         [theme.breakpoints.up('md')]: {
             width: '35em'
         },
-        marginTop: '5rem',
+        marginTop: '2rem',
         margin: 'auto',
         border: '1px solid red',
         borderRadius: '4px',
