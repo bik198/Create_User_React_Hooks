@@ -44,7 +44,7 @@ export default function Register() {
                             <Grid item md={12} xs={12}>
                                 <div className={classes.logo}>
                                     <div className={classes.border}>
-                                        2 Step UI Wizard to Create User
+                                        <h2>2 Step UI Wizard to Create User</h2>
                                     </div>
                                 </div>
                             </Grid>
