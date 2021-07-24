@@ -11,6 +11,6 @@ export const StoreContextProvider = ({ children }) => {
         information: [information, setInformation],
         account: [account, setAccount],
     }
-    console.log(store)
+    // console.log(store)
     return <StoreContext.Provider value={store}>{children}</StoreContext.Provider>
 }

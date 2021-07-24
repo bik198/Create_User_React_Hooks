@@ -34,7 +34,7 @@ const useStyles = makeStyles(theme => ({
 const informationSchema = yup.object().shape({
     firstName: yup.string().required('This field is required.'),
     lastName: yup.string().required('This field is required.'),
-    age: yup.string().required('This field is required.'),
+    age: yup.number().required('This field is required.'),
 });
 
 const accountSchema = yup.object().shape({

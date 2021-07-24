@@ -45,7 +45,7 @@ export default function Information({ formProps: { register, errors }, data}) {
                     <Grid item md={12} xs={12}>
                         <TextField
                             id="firstName"
-                            label="Firstname"
+                            label="First Name"
                             name="firstName"
                             className={classes.textField}
                             margin="normal"
@@ -60,7 +60,7 @@ export default function Information({ formProps: { register, errors }, data}) {
                     <Grid item md={12} xs={12}>
                         <TextField
                             id="lastName"
-                            label="Lastname"
+                            label="Last Name"
                             name="lastName"
                             className={classes.textField}
                             margin="normal"
@@ -80,7 +80,7 @@ export default function Information({ formProps: { register, errors }, data}) {
                         <Grid item md={12} xs={12}>
                             <TextField
                                 id="age"
-                                label="age"
+                                label="Age"
                                 name="age"
                                 className={classes.textField}
                                 margin="normal"
